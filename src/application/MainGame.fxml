@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyboardInput" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainGameController">
+   <center>
+      <ImageView fx:id="hangingImageView" fitHeight="334.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <GridPane alignment="CENTER" disable="true" prefHeight="262.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="aLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="A" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="bLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="B" textAlignment="CENTER" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="cLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="C" textAlignment="CENTER" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="dLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="D" textAlignment="CENTER" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="eLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="E" textAlignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="fLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="F" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="gLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="G" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="hLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="H" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="iLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="I" textAlignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="jLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="J" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="kLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="K" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="L" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="mLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="M" textAlignment="CENTER" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="nLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="N" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="oLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="O" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="pLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="P" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="qLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="Q" textAlignment="CENTER" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="rLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="R" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="sLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="S" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="tLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="T" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="uLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="U" textAlignment="CENTER" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="vLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="V" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="wLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="W" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="X" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" fx:id="xLetter">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="yLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="Y" textAlignment="CENTER" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="zLetter" alignment="CENTER" contentDisplay="CENTER" opacity="0.54" prefHeight="80.0" prefWidth="80.0" text="Z" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </left>
+   <top>
+      <Label fx:id="guessingWordLabel" alignment="CENTER" onKeyPressed="#keyboardInput" prefHeight="17.0" prefWidth="400.0" textAlignment="JUSTIFY" BorderPane.alignment="CENTER_RIGHT">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </top>
+</BorderPane>

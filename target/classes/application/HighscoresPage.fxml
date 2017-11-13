@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HighscoresPageController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button contentDisplay="CENTER" minWidth="60.0" mnemonicParsing="false" onAction="#backButtonPressed" prefWidth="60.0" text="Back" />
+            <Label alignment="CENTER" prefWidth="480.0" text="Highscores" textAlignment="CENTER" />
+            <Button disable="true" minWidth="60.0" mnemonicParsing="false" prefWidth="60.0" text="Back" visible="false" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox maxWidth="350.0" prefHeight="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="highscore1" prefWidth="330.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore2" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore3" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore4" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore5" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore6" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore7" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore8" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore9" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="highscore10" prefWidth="350.0" text="Label">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Monospaced Regular" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
