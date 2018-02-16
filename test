@@ -1,0 +1,13 @@
+	    try
+	    {
+		OwnerBo ownerbo = (OwnerBo) objectFactory.getObject(ObjectFactory.OWNER, REQUEST_ID, dataSourceId);
+
+		List<OwnerData> owner = ownerbo.fetchActiveOwners();
+
+		Collections.sort(owner);
+		for (int i = 0; i < owner.size(); i++)
+		{
+		    mapForReturn(owner.get(i));
+		    outputRow();
+		}
+	    }
